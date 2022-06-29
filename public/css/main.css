@@ -1,0 +1,25 @@
+html {
+  height: 100%; }
+
+body {
+  height: 100%; }
+
+main {
+  margin-top: 2%;
+  margin-bottom: 3em; }
+
+#display-container {
+  padding: 2em;
+  background-color: #f1e9d2;
+  border-radius: 8px;
+  box-shadow: 4px 0 5px gray, 0 4px 5px gray;
+}
+
+ol, code, samp {
+  font-size: 18px;
+  /*line-height: 1.2;*/
+}
+
+@media (min-width: 768px) {
+  #display-container {
+    width: 768px; } }
